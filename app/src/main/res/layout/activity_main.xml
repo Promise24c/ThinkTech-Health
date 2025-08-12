@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/view_medications_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Medications" />
+
+    <Button
+        android:id="@+id/add_medication_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Medication" />
+
+    <Button
+        android:id="@+id/view_health_metrics_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Health Metrics" />
+
+    <Button
+        android:id="@+id/add_health_metric_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Health Metric" />
+
+    <Button
+        android:id="@+id/view_checkups_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Checkups" />
+
+    <Button
+        android:id="@+id/add_checkup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Checkup" />
+
+    <TextView
+        android:id="@+id/healthy_eating_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Healthy Eating Tip: Eat more fruits and vegetables!"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+</LinearLayout>

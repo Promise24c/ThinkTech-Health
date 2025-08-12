@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddHealthMetricActivity">
+
+    <EditText
+        android:id="@+id/blood_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Pressure (e.g., 120/80)" />
+
+    <EditText
+        android:id="@+id/blood_sugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Sugar (e.g., 90 mg/dL)" />
+
+    <EditText
+        android:id="@+id/heart_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Heart Rate (e.g., 70 bpm)" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Notes"
+        android:lines="4" />
+
+    <Button
+        android:id="@+id/save_health_metric_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save" />
+
+</LinearLayout>
