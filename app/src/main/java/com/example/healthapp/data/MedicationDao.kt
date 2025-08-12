@@ -12,9 +12,10 @@ interface MedicationDao {
     /**
      * Inserts a new medication into the database.
      * @param medication The medication to insert.
+     * @return The rowId of the inserted medication.
      */
     @Insert
-    suspend fun insert(medication: Medication)
+    suspend fun insert(medication: Medication): Long
 
     /**
      * Updates an existing medication in the database.
