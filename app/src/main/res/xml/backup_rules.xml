@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- For more information on vector drawables, see https://developer.android.com/guide/topics/graphics/vector-drawable-resources.html -->
+    <include domain="sharedpref" path="."/>
+    <exclude domain="database" path="health_app_database"/>
+</full-backup-content>
